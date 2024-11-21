@@ -51,7 +51,7 @@ def create_seasonal_rentals_df(df):
     
 
 # Memuat data
-all_df = pd.read_csv("/dashboard/hour.csv")
+all_df = pd.read_csv("dashboard/hour.csv")
 # Mengubah kolom dteday menjadi jenis data datetime
 all_df["dteday"] = pd.to_datetime(all_df["dteday"])
 # Mengurutkan data berdasarkan dteday    
